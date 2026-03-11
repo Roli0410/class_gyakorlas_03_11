@@ -1,4 +1,4 @@
-from allat import Allat
+from allat import Allat, Madar, Keteltu, Hullo
 from emlos import Emlos, Macska, Kutya
 
 
@@ -25,3 +25,23 @@ macska1.dorombol()
 kutya1 = Kutya("Cézár", 7, "udvar", "fekete")
 print(kutya1)
 kutya1.ugat()
+
+print("\nMADARAK\n")
+
+madar1 = Madar("veréb", 1)
+print(madar1)
+madar1.csiripel()
+
+print("\nKÉTÉLTŰEK\n")
+
+keteltu1 = Keteltu("Johhny", 5)
+print(keteltu1)
+keteltu1.brekeg()
+
+print("\nHÜLLŐK\n")
+
+hullo1 = Hullo("Larry", 4)
+print(hullo1)
+hullo1.napozik()
+
+
