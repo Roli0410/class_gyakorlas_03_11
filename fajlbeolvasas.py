@@ -25,13 +25,29 @@ for allat in allatok:
     print(allat)
 
 for allat in allatok:
-    if allat.faj == "kutya":
-        allat.ugat
-    elif allat.faj == "macska":
-        allat.dorombol
-    elif allat.faj == "madar":
-        allat.csiripel
-    elif allat.faj == "keteltu":
-        allat.brekeg
-    elif allat.faj == "hullo":
-        allat.napozik
+    if isinstance(allat, Kutya):
+        allat.ugat()
+    if isinstance(allat, Macska):
+        allat.dorombol()
+    if isinstance(allat, Madar):
+        allat.csiripel()
+    if isinstance(allat, Keteltu):
+        allat.brekeg()
+    if isinstance(allat, Hullo):
+        allat.napozik()
+
+
+# for allat in allatok:
+#     if allat.faj == "kutya":
+#         allat.ugat()
+#         allat.
+#     elif allat.faj == "macska":
+#         allat.dorombol
+#     elif allat.faj == "madar":
+#         allat.csiripel
+#     elif allat.faj == "keteltu":
+#         allat.brekeg
+#     elif allat.faj == "hullo":
+#         allat.napozik
+
+
