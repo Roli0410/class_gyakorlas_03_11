@@ -14,4 +14,11 @@ class Macska(Emlos):
         super().__init__(nev_, "macska", eletkor_, elohely_, szorzet_szine_)
 
     def dorombol(self):
-        print("{self.nev} éppen dorombol")
+        print(f"{self.nev} éppen dorombol")
+
+class Kutya(Emlos):
+    def __init__(self, nev_,  eletkor_, elohely_, szorzet_szine_):
+        super().__init__(nev_, "kutya", eletkor_, elohely_, szorzet_szine_)
+
+    def ugat(self):
+        print(f"{self.nev} éppen ugat")
